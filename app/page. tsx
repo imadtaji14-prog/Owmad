@@ -1,0 +1,29 @@
+export default function Home() {
+  return (
+    <main style={{background:'black',color:'white',minHeight:'100vh',padding:'20px',fontFamily:'sans-serif'}}>
+      <div style={{maxWidth:'800px',margin:'0 auto'}}>
+        <h1 style={{fontSize:'40px',fontWeight:'900',textAlign:'center',marginTop:'30px'}}>OWMAD<span style={{color:'#facc15'}}>.MA</span></h1>
+        <p style={{textAlign:'center',color:'#888'}}>خدمات أونلاين مغربية - 49 درهم</p>
+        
+        <div style={{display:'grid',gap:'20px',marginTop:'40px'}}>
+          <div style={{border:'2px solid #facc15',borderRadius:'20px',padding:'20px',background:'#18181b'}}>
+            <span style={{background:'#facc15',color:'black',padding:'4px 8px',borderRadius:'10px',fontSize:'12px'}}>الأكثر طلبا 🔥</span>
+            <h3 style={{fontSize:'20px',fontWeight:'bold',marginTop:'10px'}}>تصاور AI واعرة</h3>
+            <p style={{fontSize:'30px',fontWeight:'900',color:'#facc15'}}>49 درهم</p>
+            <p style={{color:'#888',fontSize:'14px'}}>تصويرتك مع أي حاجة - ميسي، فدبي، شارلي شابلن...</p>
+            <a href="https://wa.me/212600000000?text=سلام بغيت تصويرة AI ب 49 درهم" style={{display:'block',background:'white',color:'black',textAlign:'center',padding:'12px',borderRadius:'12px',fontWeight:'bold',marginTop:'15px',textDecoration:'none'}}>طلب عبر واتساب</a>
+          </div>
+
+          <div style={{border:'1px solid #333',borderRadius:'20px',padding:'20px',background:'#18181b'}}>
+            <h3 style={{fontSize:'20px',fontWeight:'bold'}}>صفحة هبوط لمشروعك</h3>
+            <p style={{fontSize:'30px',fontWeight:'900',color:'#facc15'}}>499 درهم</p>
+            <p style={{color:'#888',fontSize:'14px'}}>موقع واجد فـ 24 ساعة</p>
+            <a href="https://wa.me/212600000000?text=بغيت موقع ب 499 درهم" style={{display:'block',background:'#333',color:'white',textAlign:'center',padding:'12px',borderRadius:'12px',fontWeight:'bold',marginTop:'15px',textDecoration:'none'}}>طلب عبر واتساب</a>
+          </div>
+        </div>
+
+        <p style={{textAlign:'center',color:'#444',marginTop:'40px',fontSize:'12px'}}>Made by Imad Taji x AI Agent - owmad.vercel.app</p>
+      </div>
+    </main>
+  )
+}
