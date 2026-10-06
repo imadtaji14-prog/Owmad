@@ -1,0 +1,1 @@
+Create a professional README.md for owmad.ma in Arabic and French. Include: logo, features (PDF offline, WhatsApp, ICE, Auto-entrepreneur), tech stack Next.js + Tailwind + jsPDF, how to run, demo link owmad.vercel.app
